@@ -1,0 +1,15 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Project with Jasmine unit and integration testing",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine",
+    "test:unit": "jasmine spec/unit/",
+    "test:integration": "jasmine spec/integration/",
+    "test:watch": "jasmine --watch"
+  },
+  "devDependencies": {
+    "jasmine": "^5.12.0"
+  }
+}
